@@ -13,7 +13,7 @@ headers={
 }
 key=input('请输入关键字：')
 keyc=quote(key,'utf-8')
-f =open(key+'.csv',mode='a',encoding='utf-8',newline='')
+f =open(key+'.txt',mode='a',encoding='utf-8',newline='')
 csv_writer = csv.writer(f)
 csv_writer.writerow(['name','time','content'])
 count=1
